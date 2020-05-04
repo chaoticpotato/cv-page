@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
-import { ScPastJob } from './scPages';
+import { ScPastJob } from './../components/scPages';
 
 const experiences = [{
   companyName: 'JotForm',
