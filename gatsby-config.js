@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ömer Fatih Tanrıverdi`,
-    description: `UI/Frontend developer from Turkey`,
+    description: `UI / Front End Developer from Turkey`,
     author: `@chaoticpotato`,
   },
   plugins: [

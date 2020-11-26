@@ -27,7 +27,7 @@ export const ScSidebar = Styled.div`
     }
   }
 
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 980px), print {
     padding: 2em 0 0;
     width: 90%;
     margin: 0 auto;

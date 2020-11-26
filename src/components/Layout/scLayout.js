@@ -8,6 +8,14 @@ export const ScLayout = Styled.div`
   font-size: 16px;
   line-height: 1.5;
 
+  .avatar {
+    width: 225px;
+    border-radius: 50%;
+    float: right;
+    margin: 0 0 1em 1em;
+    overflow: hidden;
+  }
+
   .l-m {
     background-color: #fff;
     flex: 0 1 35%;
@@ -19,15 +27,19 @@ export const ScLayout = Styled.div`
     flex: 1 1 auto;
     padding: 4em;
     overflow: auto;
+
+    @media print { overflow: initial; }
   }
   
   .c {
     background-color: #fff;
     padding: 4em 4em 3em;
     max-width: 640px;
+
+    @media print { padding: 0!important; }
   }
 
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 980px), print {
     flex-direction: column;
 
     .l-m { flex: 0 0 auto; }

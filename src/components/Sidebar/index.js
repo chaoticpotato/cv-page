@@ -19,7 +19,7 @@ const links = [{
 const Sidebar = () => (
   <ScSidebar>
     <h1 className="title">Ömer Fatih Tanrıverdi</h1>
-    <p className="desc">UI/FrontEnd Developer</p>
+    <p className="desc">UI / Front End Developer</p>
     <nav className="menu">
       <ul>
         {links.map(item => (
