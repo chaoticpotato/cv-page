@@ -30,7 +30,7 @@ const experiences = [{
 }, {
   companyName: 'Kaktüs Creative Agency',
   companyUrl: 'https://grafikir.com.tr/',
-  dates: '04 / 2009 - 08.2011',
+  dates: '04 / 2009 - 08 / 2011',
   stuff: 'Many website design and UI work for local businesses.'
 }];
 
