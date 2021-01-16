@@ -10,7 +10,7 @@ const skillz = [{
   stuff: ['LESS', 'SASS', 'PostCSS', 'Styled Components', 'Emotion', 'Tailwind CSS', 'CSS Methodologies']
 }, {
   name: 'js',
-  stuff: ['Vannilla JS', 'ES6', 'TypeScript', 'React']
+  stuff: ['Vannilla JS', 'ES6', 'TypeScript', 'React', 'Redux']
 }, {
   name: 'design',
   stuff: ['Adobe Photoshop', 'Figma', 'Zeplin', 'Sketch']
