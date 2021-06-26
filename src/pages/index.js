@@ -13,9 +13,9 @@ const IndexPage = () => (
     </div>
     <h2>Hello there!</h2>
     <p>
-      My name is Ömer Fatih Tanrıverdi. I'm 32 years old and I'm from Turkey.<br /><br />
+      My name is Ömer Fatih Tanrıverdi. I am 32 years old and from Turkey.<br /><br />
 
-      I've been working on UI &amp; Front End development for <strong>10+ years</strong>. In such situations, I have a hard time talking about myself and try to be funny about it. (Just joking.)<br /><br />
+      I've been involved in <strong>UI &amp; Front End development</strong> for <strong>over 10 years</strong>. In such situations, I often have a hard time talking about myself and try to be funny about it. (Just joking.)<br /><br />
 
       I like dogs, reading, sewing, listening. (in no particular order)<br /><br />
 
