@@ -28,7 +28,7 @@ export const ScLayout = Styled.div`
     padding: 4em;
     overflow: auto;
 
-    @media print { overflow: initial; }
+    @media print { overflow: initial; background: #fff; }
   }
   
   .c {
