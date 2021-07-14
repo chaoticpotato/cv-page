@@ -48,12 +48,12 @@ export const ScFun = Styled.span`
   display: flex;
   align-items: flex-end;
   background-color: #c29c9b;
-  background: linear-gradient(60deg, rgba(193, 96, 210, 0.75) 0%, rgba(226, 90, 9, 0.75) 50%, rgba(69, 169, 252, 0.75) 100%);
+  background: #f2f3f6;
   opacity: .75;
 
   .title {
     font-family: Quicksand, sans-serif;
-    flex: 0 0 120px;
+    flex: 0 0 132px;
     text-align: right;
     padding-right: 1.5rem;
     font-size: 1.25em;
@@ -67,6 +67,7 @@ export const ScFun = Styled.span`
 
   @media screen and (max-width: 420px) {
     flex-direction: column;
+    align-items: stretch;
 
     .title {
       text-align: left;
@@ -76,4 +77,6 @@ export const ScFun = Styled.span`
       span { display: inline-block; width: 4px; }
     }
   }
+
+  @media print { border: 1px solid #f2f3f5; }
 `;
