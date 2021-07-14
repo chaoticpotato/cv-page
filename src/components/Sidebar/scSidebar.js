@@ -62,6 +62,15 @@ export const ScSidebar = Styled.div`
     }
   }
 
+  @media print { 
+    .desc {
+      color: #147ac3;
+      background: transparenet;
+      -webkit-background-clip: content-box;
+      -webkit-text-fill-color: unset;
+    }
+  }
+
   @media screen and (max-width: 980px), print {
     padding: 2em 0 0;
     width: 90%;
