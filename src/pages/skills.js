@@ -24,8 +24,8 @@ const SkillsPage = () => (
     <SEO title="Skills" />
     <h2>Skills</h2>
     <div>
-      {skillz.map(skill => (
-        <ScSkillSet>
+      {skillz.map((skill, i) => (
+        <ScSkillSet key={i}>
           <div className={`name ${skill.name}`}>{skill.name}</div>
           <div className="item">{skill.stuff.join(', ')}</div>
         </ScSkillSet>

@@ -20,6 +20,8 @@ export const ScLayout = Styled.div`
     background-color: #fff;
     flex: 0 1 35%;
     overflow: auto;
+    box-shadow: 0 0 1px 0px black;
+    z-index: 1;
   }
   .l-c {
     background-color: #f2f4;
@@ -54,5 +56,9 @@ export const ScLayout = Styled.div`
 
   @media screen and (max-width: 420px) {
     font-size: 14px;
+    .avatar {
+      width: 100%;
+      margin-left: 0;
+    }
   }
 `;

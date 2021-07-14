@@ -48,8 +48,8 @@ const ExperiencePage = () => (
     <SEO title="Experience" />
     <h2>Employement History</h2>
     <div>
-      {experiences.map(item => (
-        <ScPastJob>
+      {experiences.map((item, i) => (
+        <ScPastJob key={i}>
           <div className="header">
             <h3 className="name">{item.companyName}</h3>
             <div className="dates">{item.dates}</div>

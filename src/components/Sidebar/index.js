@@ -22,8 +22,8 @@ const Sidebar = () => (
     <p className="desc">UI / Front End Developer</p>
     <nav className="menu">
       <ul>
-        {links.map(item => (
-          <li>
+        {links.map((item, i) => (
+          <li key={i}>
             <Link
               activeClassName="isActive"
               to={item.to}

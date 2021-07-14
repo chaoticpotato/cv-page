@@ -1,6 +1,6 @@
 html,
 body,
-body > div,
+body > div:not(#query-on-demand-indicator-element),
 body > div > div {
   height: 100%;
   width: 100%;

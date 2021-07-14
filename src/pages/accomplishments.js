@@ -39,8 +39,8 @@ const AccomplishmentsPage = () => (
   <Layout>
     <SEO title="Accomplishments" />
     <h2>Accomplishments</h2>
-    {accs.map(acc => (
-      <ScAcc>
+    {accs.map((acc, i) => (
+      <ScAcc key={i}>
         <h3>
           {acc.url
             ? <a href={acc.url} target="_blank" rel="noopener noreferrer">{acc.name}</a>
