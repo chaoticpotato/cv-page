@@ -18,7 +18,14 @@ const links = [{
 
 const Sidebar = () => (
   <ScSidebar>
-    <h1 className="title">Ömer Fatih Tanrıverdi</h1>
+    <h1 className="title">
+      <Link
+        activeClassName="isActive"
+        to="/"
+      >
+        Ömer Fatih Tanrıverdi
+      </Link>
+    </h1>
     <p className="desc">UI / Front End Developer</p>
     <nav className="menu">
       <ul>

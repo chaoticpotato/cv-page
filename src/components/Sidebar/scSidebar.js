@@ -7,6 +7,8 @@ export const ScSidebar = Styled.div`
   height: 100%;
   padding: 5em 2em 2em;
 
+  h1 a { text-decoration: none; color: #444; }
+
   .title { margin: 0 0 .25em -.1em; }
   .desc {
     margin: 0;

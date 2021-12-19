@@ -2,7 +2,7 @@ import Styled from 'styled-components';
 
 export const ScPastJob = Styled.article`
   .header {}
-  .name { font-size: 1.5em; margin: 0; color: #44403c; line-height: 1; }
+  .name { font-size: 1.5em; margin: 0; color: #44403c; line-height: 1; color: #ea8558; }
   .dates { font-family: Quicksand, sans-serif }
   .body {
     margin: .5em 0 0 0;
@@ -15,7 +15,7 @@ export const ScPastJob = Styled.article`
     }
   }
 
-  & + & { margin-top: 2em; }
+  & + & { margin-top: 2.5em; }
 `;
 
 export const ScSkillSet = Styled.article`
@@ -25,18 +25,19 @@ export const ScSkillSet = Styled.article`
     flex: 0 0 3.5em;
     margin-right: .5em;
     font-weight: 700;
+    color: #ea8558;
   }
   .item {
-    span { margin-right: 5px; }
+    span { margin-right: 5px; display: inline-block; }
   }
 
   & + & { margin-top: 1em; }
 `;
 
 export const ScAcc = Styled.article`
-  h3 { font-size: 1.5em; margin: 0; color: #44403c; line-height: 1; }
-  h3 a { color: #147ac3; text-decoration: none; }
-  .t { font-size: 1em; font-family: Quicksand, sans-serif; }
+  h3 { font-size: 1.5em; margin: 0; color: #44403c; line-height: 1; color: #ea8558; }
+  h3 a { color: #147ac3; }
+  .t { font-size: 1em; margin-top: .25em; font-family: Quicksand, sans-serif; }
   p {
     margin: 1em 0;
   }
@@ -44,18 +45,24 @@ export const ScAcc = Styled.article`
 `;
 
 export const ScFun = Styled.span`
-  padding: 1rem;
   display: flex;
-  align-items: flex-end;
-  background-color: #c29c9b;
+  justify-content: space-between;
+  padding: 1rem;
   background: #f2f3f6;
-  opacity: .75;
+  border-radius: 12px;
+  min-width: 6rem;
+  margin-bottom: 1.45em;
+
+  .box {
+    flex: 0 0 32%;
+    padding: .5rem;
+  }
 
   .title {
     font-family: Quicksand, sans-serif;
-    flex: 0 0 132px;
-    text-align: right;
-    padding-right: 1.5rem;
+    align-self: flex-end;
+    flex: 0 0 150px;
+
     font-size: 1.25em;
 
     span { display: block; }
@@ -70,8 +77,7 @@ export const ScFun = Styled.span`
     align-items: stretch;
 
     .title {
-      text-align: left;
-      margin-bottom: 0.5rem;
+      align-self: center;
       flex: 1 1 auto;
 
       span { display: inline-block; width: 4px; }

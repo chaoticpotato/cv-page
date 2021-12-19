@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import { ScAcc } from './../components/scPages';
 
@@ -37,7 +37,7 @@ const accs = [{
 
 const AccomplishmentsPage = () => (
   <Layout>
-    <SEO title="Accomplishments" />
+    <Seo title="Accomplishments" />
     <h2>Accomplishments</h2>
     {accs.map((acc, i) => (
       <ScAcc key={i}>

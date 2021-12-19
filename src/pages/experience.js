@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import { ScPastJob } from './../components/scPages';
 
@@ -45,7 +45,7 @@ const createMarkup = (i) => {
 
 const ExperiencePage = () => (
   <Layout>
-    <SEO title="Experience" />
+    <Seo title="Experience" />
     <h2>Employement History</h2>
     <div>
       {experiences.map((item, i) => (
