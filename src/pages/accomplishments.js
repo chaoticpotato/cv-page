@@ -6,6 +6,12 @@ import Seo from "../components/seo"
 import { ScAcc } from './../components/scPages';
 
 const accs = [{
+  name: 'Amber Calendar (2021)',
+  title: 'an application against gender-based violence that has a health mode and a security mode for women.',
+  defn: 'Amber is an application developed by UNFPA Turkey for women for a healthy and safe life. Amber enables the monitoring of menstrual and ovulation cycles, helps planned pregnancies, and shares information about reproductive health. Amber also includes features that promote women\'s safety.',
+  keywords: 'Product ownership, time management, scheduling, organizing, reporting, presenting',
+  url: 'https://apps.apple.com/tr/app/amber-takvim/id1578710533'
+}, {
   name: 'JotForm Mobile Forms (2019)',
   title: 'a very capable mobile app created by using react native',
   defn: 'Creating forms, reading submissions, filling forms and using devices as a kiosk, offline data collection... and more. This app shares components with JotForm web apps. CSS-in-JS solutions provide us a clean environment for that.',
