@@ -15,6 +15,9 @@ const skillz = [{
   name: 'design',
   stuff: ['Adobe Photoshop', '*Figma', 'Zeplin', '*Sketch']
 }, {
+  name: 'data',
+  stuff: ['*SQL', 'MySQL', '*PostreSQL', 'Postico']
+}, {
   name: 'dev',
   stuff: ['*yarn', 'npm', '*parcel', 'github', 'vs code']
 }]
