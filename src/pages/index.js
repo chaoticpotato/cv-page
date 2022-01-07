@@ -25,6 +25,28 @@ const IndexPage = () => (
       <p>Over 12 years of experience developing frontend and backend applications. Strong background with user interface (UI) applications and layout architectures. Focused on front-end development for the last 9 years with various technologies and frameworks. Very experienced with React ecosystem.</p>
     </div>
 
+    <div className="cols">
+      <div className="ed">
+        <h2>Education</h2>
+        <p>
+          <strong>Computer Science</strong><br />
+          METU (ODTÜ), Ankara, Turkey<br /><br />
+          <strong>Sociology</strong><br />
+          Anadolu University, Eskişehir, Turkey
+        </p>
+      </div>
+
+      <div className="langs">
+        <h2>Languages</h2>
+        <p>
+          <strong>English</strong><br />
+          Advanced<br /><br />
+          <strong>German</strong><br />
+          Beginner
+        </p>
+      </div>
+    </div>
+
     <div>
       <p>My previous experience involves intersection with product owner roles to enhance user engagement, analyzing customer needs in products usage and collecting customers' feedback. Also, since I am the point of contact between the design and development teams, I am able to ensure cross-team collaboration in order to meet the deadlines and prioritize the features.</p>
 

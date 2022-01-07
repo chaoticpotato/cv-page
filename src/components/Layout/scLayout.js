@@ -27,15 +27,23 @@ export const ScLayout = Styled.div`
     margin-bottom: 1.5rem;
 
     p { margin-bottom: 1.5rem; }
+  }
 
-    h2 {
-      text-transform: uppercase;
-      font-family: Quicksand,sans-serif;
-      font-size: 1.25rem;
-      font-weight: 500;
-      margin-bottom: .25rem;
-      color: #ea8558;
-    }
+  h2 {
+    text-transform: uppercase;
+    font-family: Quicksand,sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: .25rem;
+    color: #ea8558;
+  }
+
+  .cols {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1.5rem;
   }
 
   .l-m {
@@ -101,5 +109,7 @@ export const ScLayout = Styled.div`
     .c { padding: 2em 2em 2.5em 2em; border-radius: .75em; }
 
     h2 { font-size: 1.75rem; }
+
+    .cols { grid-template-columns: repeat(1, minmax(0, 1fr)); }
   }
 `;
