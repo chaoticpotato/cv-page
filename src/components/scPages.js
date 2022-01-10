@@ -51,6 +51,7 @@ export const ScFun = Styled.span`
   background: #f2f3f6;
   border-radius: 12px;
   min-width: 6rem;
+  font-family: Quicksand, sans-serif;
   margin-bottom: 1.45em;
 
   .box {
@@ -59,7 +60,6 @@ export const ScFun = Styled.span`
   }
 
   .title {
-    font-family: Quicksand, sans-serif;
     align-self: flex-end;
     flex: 0 0 150px;
 

@@ -10,6 +10,7 @@ export const ScSidebar = Styled.div`
   h1 a { text-decoration: none; color: #444; }
 
   .title { margin: 0 0 .25em -.1em; }
+
   .desc {
     margin: 0;
     font-family: Quicksand, sans-serif;
@@ -92,6 +93,16 @@ export const ScSidebar = Styled.div`
         &:not(.isActive):hover, &.isActive { text-indent: 0; box-shadow: inset 0 -3px #e5885e; }
         &.isActive:after,
         &:hover:after { transform: scale(0); }
+      }
+    }
+
+    @media screen and (max-width: 420px) {
+      width: 100%;
+      text-align: center;
+    
+      .title {
+        font-size: 1.5rem;
+        margin: 0;
       }
     }
   }

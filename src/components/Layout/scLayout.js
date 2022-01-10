@@ -24,18 +24,16 @@ export const ScLayout = Styled.div`
 
   .summary {
     border-bottom: 1px solid #eee;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 
     p { margin-bottom: 1.5rem; }
   }
 
   h2 {
-    text-transform: uppercase;
-    font-family: Quicksand,sans-serif;
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-bottom: .25rem;
-    color: #ea8558;
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+    font-weight: 600;
+    color: rgb(0 0 0 / 64%);
   }
 
   .cols {
@@ -68,6 +66,8 @@ export const ScLayout = Styled.div`
     padding: 4em 3em 3em 4em;
     max-width: 640px;
     border-radius: 1.25rem;
+
+    > h2 { font-size: 2rem; }
 
     @media print { padding: 0!important; }
   }
