@@ -8,7 +8,7 @@ import { ScPastJob } from './../components/scPages';
 const experiences = [{
   companyName: 'UNFPA Turkey - Product Owner',
   companyUrl: 'https://turkey.unfpa.org/',
-  dates: '10 / 2021 - present',
+  dates: '10 / 2021 - 04 / 2022',
   stuff: 'I am currently participating in <strong>The Amber Project</strong> as a product owner (PO). <br /><br />AMBER is an application developed by UNFPA Turkey for women for a healthy and safe life. AMBER enables the monitoring of menstrual and ovulation cycles, helps planned pregnancies, and shares information about reproductive health. AMBER also includes features that promote women\'s safety.'
 }, {
   companyName: 'JotForm - UI Consultant',
